@@ -26,3 +26,4 @@ if mi_casa == casa_vecino:
     print('mi casa y la del vecino son iguales')
 else:
     print('mi casa y la del vecino son diferentes')
+
