@@ -18,3 +18,11 @@ atributos = casa_homero.__dict__
 
 for llave in atributos:
     print(f'Atributo {llave} con el valor {atributos[llave]} en la casa de homero')
+
+setattr(casa_vecino, 'banos', 2)
+setattr(casa_vecino, 'ambientes', 4)
+
+if mi_casa == casa_vecino:
+    print('mi casa y la del vecino son iguales')
+else:
+    print('mi casa y la del vecino son diferentes')
