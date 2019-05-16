@@ -18,3 +18,6 @@ class Elpunto:
 
     def hallarpendiente(self,other):
         return (other.corx - self.corx) / (other.cory - self.cory)
+
+    def hallarvistancia(self,other):
+        return ((other.corx - self.corx)**2 + (other.cory - self.cory)**2)**(1/2)
