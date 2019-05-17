@@ -4,6 +4,7 @@ class Vehiculo:
     placa = ''
     color = ''
     encendido = False
+    moviendose = False
 
 
 
@@ -13,7 +14,7 @@ class Vehiculo:
         self.color = color
         self.encendido =  False
 
-    def moverse(self):
+    def mover(self, distancia):
         pass
 
     def reversa(self):
